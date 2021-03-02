@@ -20,5 +20,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and
+# "Bye" returns "HiByeByeHi".
+#
+# make_abba('Hi', 'Bye') → 'HiByeByeHi'
+# make_abba('Yo', 'Alice') → 'YoAliceAliceYo'
+# make_abba('What', 'Up') → 'WhatUpUpWhat'
+
 def make_abba(a, b):
     return a + b + b + a;
